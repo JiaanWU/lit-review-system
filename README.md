@@ -96,4 +96,4 @@ README.md §研究问题
 | 首轮结果 commit | https://github.com/JiaanWU/lit-review-system/commit/feebde1 |
 | 最终 commit | https://github.com/JiaanWU/lit-review-system/commit/a56f24a |
 
-首轮 commit `feebde1` 对应「第一轮备忘录完成、第二轮尚未开始」的状态，便于教师对照第二轮及后续修改。`a56f24a` 为全部内容交付物齐备（两轮产物、本人回查、引文追溯、漏检文献补录与边界更正）的提交；其后提交仅为 Obsidian 配置、忽略规则与本表链接的维护，不改变任何结论。完整历史：https://github.com/JiaanWU/lit-review-system/commits/main
+首轮 commit `feebde1` 对应「第一轮备忘录完成、第二轮尚未开始」的状态，便于教师对照第二轮及后续修改。`a56f24a` 为全部内容交付物齐备（两轮产物、本人回查、引文追溯、漏检文献补录与边界更正）的提交；其后提交为 Obsidian 配置、忽略规则、本表链接与个别表述的精确化，不改变任何结论。完整历史：https://github.com/JiaanWU/lit-review-system/commits/main
