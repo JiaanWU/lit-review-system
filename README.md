@@ -74,9 +74,10 @@ README.md §研究问题
 | 首轮·判断 | `agents/research-margin.md` | 研究问题 + 检索记录 + 归档笔记 | `rounds/round1/memo-1.md` |
 | 二轮·检索 | `skills/search/SKILL.md` | memo-1 第 7 节的三条推翻条件 | `rounds/round2/search-log.md`、`cnki-raw.json` |
 | 二轮·判断 | 同一份 `agents/research-margin.md` | memo-1 + 补检结果 | `rounds/round2/memo-2.md`（另存） |
+| 二轮·引文追溯 | `skills/search/SKILL.md`（引文追溯条款） | 两篇全文 PDF、知网 `RF=参考文献` 字段 | `rounds/round2/citation-tracing.md` |
 | 二轮·回查 | 无（本人执行） | 三处原文 + Obsidian Backlinks 面板 | `rounds/round2/verification.md` |
 
-关键结果：T1「算力 × 创新质量 × 分布」零命中，同会话对照 T0 返回 9 条以排除限流误判；三条推翻条件均未触发，方向收窄保留。三处原文回查全部接受，仅更正一处附表引用格式。重复归档 0 条，反向链接 6 对双向校验通过。
+关键结果：T1「算力 × 创新质量 × 分布」零命中，T4、T5 两个补充表述同样零命中，同会话对照 T0 返回 9 条以排除限流误判；三条推翻条件均未触发，方向收窄保留。引文追溯：后向 97 条参考文献中质量与分布类词汇零命中，前向反查 17 条无一条涉及质量分布。三处原文回查全部接受，仅更正一处附表引用格式。重复归档 0 条，反向链接 6 对双向校验通过。
 
 ## 提交与追溯
 
