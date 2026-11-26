@@ -14,7 +14,7 @@
 
 本研究的边际在于：在同一政策情境（国家超算中心 / 智能算力部署）下，把结果变量从「专利数量、合作范围」换成「发明专利占比、专利被引」，检验是否存在**数量扩张而质量滞后**的结构性差异，并说明该差异在何种企业规模与行业中更明显。
 
-> 该问题为初稿。第一轮备忘录可能将其收窄、改写或放弃，实际定稿以 `rounds/round1/memo-1.md` 第 6 节为准。
+> 第一轮提出该方向（`rounds/round1/memo-1.md` 第 6 节），第二轮补检后**收窄并保留**（`rounds/round2/memo-2.md` 第 4 节）。收窄要点：同时报告均值与分布、质量口径用两个指标（发明专利占比 + 被引或维持年限）、锁定 2007–2023 与谷城（2026）可比。
 
 **入选标准**：2021–2026 年；CSSCI 或北大核心；题名或摘要同时涉及「算力 / 超算 / 数据中心」与「创新 / 专利 / 研发」；同一论文的工作稿与期刊版计一篇。
 
@@ -66,18 +66,24 @@ README.md §研究问题
 
 ## 实际运行记录
 
-> 按任务书第 72 行要求填写：调用顺序、关键输入、产物路径、重复归档与反向链接核查结果、本人回查结论。待两轮执行完成后补全。
-
 | 阶段 | 读取的定义 | 关键输入 | 产物 |
 |---|---|---|---|
-| 待补 | | | |
+| 首轮·检索 | `skills/search/SKILL.md` | README 研究问题、Zotero 本地库、知网机构会话 | `rounds/round1/search-log.md`、`cnki-raw.json` |
+| 首轮·精读 | `skills/read/SKILL.md` | search-log 入选清单 6 篇 | `materials/*.md`（6）、`vault/10-论文笔记/*.md`（6） |
+| 首轮·归档 | `skills/archive/SKILL.md` | 6 篇笔记 | `vault/00-索引/*`、`vault/20-主题笔记/*`、`archive-check.md` |
+| 首轮·判断 | `agents/research-margin.md` | 研究问题 + 检索记录 + 归档笔记 | `rounds/round1/memo-1.md` |
+| 二轮·检索 | `skills/search/SKILL.md` | memo-1 第 7 节的三条推翻条件 | `rounds/round2/search-log.md`、`cnki-raw.json` |
+| 二轮·判断 | 同一份 `agents/research-margin.md` | memo-1 + 补检结果 | `rounds/round2/memo-2.md`（另存） |
+| 二轮·回查 | 无（本人执行） | 三处原文 + Obsidian Backlinks 面板 | `rounds/round2/verification.md` |
+
+关键结果：T1「算力 × 创新质量 × 分布」零命中，同会话对照 T0 返回 9 条以排除限流误判；三条推翻条件均未触发，方向收窄保留。三处原文回查全部接受，仅更正一处附表引用格式。重复归档 0 条，反向链接 6 对双向校验通过。
 
 ## 提交与追溯
 
 | 项 | 链接 |
 |---|---|
 | 仓库 | https://github.com/JiaanWU/lit-review-system |
-| 首轮结果 commit | 待补 |
-| 最终 commit | 待补 |
+| 首轮结果 commit | https://github.com/JiaanWU/lit-review-system/commit/feebde1 |
+| 最终 commit | https://github.com/JiaanWU/lit-review-system/commit/caa32e7 |
 
-首轮 commit 对应「第一轮备忘录完成、第二轮尚未开始」的状态，便于教师对照第二轮及后续修改。
+首轮 commit `feebde1` 对应「第一轮备忘录完成、第二轮尚未开始」的状态，便于教师对照第二轮及后续修改。`caa32e7` 为全部交付物齐备（含本人回查记录）时的提交；其后若仅有 README 的链接补充，以提交历史为准：https://github.com/JiaanWU/lit-review-system/commits/main
