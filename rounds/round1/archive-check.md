@@ -42,7 +42,7 @@
 
 说明：`文献总索引` 与 `主题索引` 对论文笔记为单向引用，属索引的正常方向，不计为断链。
 
-**Obsidian 面板核对**：待本人在 Obsidian 打开 `vault/` 后，于 `算力基础设施` 笔记的 Backlinks 面板确认上表来源笔记列表，记入 `rounds/round2/verification.md`。
+**Obsidian 面板核对**：已完成。2026-11-26 18:50 在 Obsidian 打开 `vault/`，`算力基础设施` 笔记的 Backlinks 面板显示 6 条来源笔记，与上表一致。记录见 `rounds/round2/verification.md` 第二节。
 
 ## 四、遗留问题
 
