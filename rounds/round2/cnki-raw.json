@@ -1,0 +1,345 @@
+{
+ "round": 2,
+ "executed_at": "2026-11-26 18:10-18:35 +08:00",
+ "channel": "CNKI 高级检索（机构认证：广东省社会科学院）",
+ "filters": {
+  "db": "学术期刊",
+  "source_category": [
+   "CSSCI",
+   "北大核心"
+  ],
+  "publish_range": "2021-01-01 至 2026-12-31",
+  "sort": "相关度"
+ },
+ "queries": [
+  {
+   "id": "T1",
+   "purpose": "推翻条件 1：是否已有人做算力×创新质量×分布",
+   "expr": "('算力'+'超算'+'数据中心')*('创新质量'+'专利质量')*('差距'+'鸿沟'+'分布'+'极化'+'基尼')",
+   "hits_total": 0,
+   "records": [],
+   "note": "返回知网零结果页（briefBox.no-content），非限流；同会话对照组 T0 正常返回 9 条"
+  },
+  {
+   "id": "T1a",
+   "purpose": "推翻条件 1 的宽松版",
+   "expr": "('算力'+'超算'+'数据中心')*('创新质量')*('差距'+'鸿沟')",
+   "hits_total": 0,
+   "records": []
+  },
+  {
+   "id": "T0",
+   "purpose": "算力×创新质量的完整清单（用于核验 T1 的零结果）",
+   "expr": "('算力'+'超算'+'数据中心')*('创新质量'+'专利质量')",
+   "hits_total": 9,
+   "records": [
+    {
+     "title": "国家绿色数据中心建设能否促进企业绿色创新的“量质齐升”？",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPqU0Q-hkNYFd4tqCCEvl791W9u9jRwNcdEhofKQeTlntCJCv-IxfNQRFCwCv2RwXvJ9sFIPoPgBulqj0ni2_KVLbmtcX9AptB0UYj431ZjeH9urbT3QM_hyUGjq7umtUA1LVjT-V8wl58ba3xnNhsn83ZJlNkqq1HuKSdmofPU1MA==",
+     "authors": "张纪录;蒋晓敏",
+     "source": "贵州财经大学学报",
+     "date": "2026-11-20 16:34",
+     "db": "",
+     "cited": "302",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "算力部署如何提升企业绿色创新质量？——基于A股上市公司IDC经营许可证的证据",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPqIgmih5rcNm4451z-wAWGD-dbkmg97kFg90Y1kyKosBZRORQK8EgvsZqw_TufKa1j1IGYJPLQbG78PqX5tHR_SYbhFdg53f1nywOOKwhJ-kRcUFpHHemG3nT6bIsYnFIhjWNGhCq444yBriu_vHB1-ddAm8KvFZ46ZXGr1a9CDnA==",
+     "authors": "徐振华;李志青",
+     "source": "财经论丛",
+     "date": "2026-11-05 13:27",
+     "db": "",
+     "cited": "1240",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "链主企业算力部署与产业链数字创新绩效",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPpOSWcd80izBXYX5cFxJiC3L5h4GzglD3D4CLiyEIL91n_tZswZKcgcd_HwIwah-T0dW3mlU9zaNtw2Ao5D33KkSdJIDXD5NY6Cx9QYOqAwxQRUyJD1m6IjhCaCxbMOJfQzVfXeRwK36b_yyALJzGbI5utZW8EZwEvKNN18WKeWiA==",
+     "authors": "藏媛;范博凯",
+     "source": "金融发展研究",
+     "date": "2026-10-14 15:56",
+     "db": "",
+     "cited": "463",
+     "downloads": "原版阅读                                                                                    CNKI AI阅读"
+    },
+    {
+     "title": "量质齐升：国家技术创新示范企业认定政策的人工智能创新效应与溢出效应",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrdjGafsWwfsp78Q2YvjSqtNoY0852vVOlB1_JwpZOHnNxFqOblxY_pWFhOLZPJDapFsZHgOHpv6eBcniHL_xoegF3ACtnQLcVgXt6H3mNK8q523yTCd9SmXPFCQzX0xBKUCokfIxhT5kQFwxEyct0fu5nXmtgAUfYVyuSvkNepkg==",
+     "authors": "胡海青;郑子卓;刘璐;赵元一",
+     "source": "科技进步与对策",
+     "date": "2026-09-22 11:11",
+     "db": "",
+     "cited": "509",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "生成式AI驱动创新的数量和质量效应——基于诺贝尔化学奖成果AlphaFold的发现",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrLlvVxxaYo4ptR_3MqnyUka7FT0bo90l1zhXhlWvz-PyGN7_Pamd6nJiRnQV3rOn0Vi3pGVT6e_Th8OSnowjb3NxHjwLEsmltFUCu8ucjhNAjXmMyNdfag1Dnwu947LHmFlO2oR6Tz43adfNnvfLalwVWwu3rsHEg2tbVQaEgaYw==",
+     "authors": "肖柏高;周阳;刘青",
+     "source": "经济学(季刊)",
+     "date": "2026-05-30",
+     "db": "",
+     "cited": "1526",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "算力部署与产业链韧性提升——来自国家超算中心的证据",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPoiq93-9BS5OPDyXBmV8XTc9XcvYOGa1zWWAUAJmlIcZMU6U7A9l14DmdVRQS2mGvYgglLQNFElaIxiy6q2R_ccneYeoebdnZBOy35LWWbAdtcujAAwMRsmsXgb9HqbKCrAQNUaN58YwRrqVepOG4FT42FDvlRpqSVUxKy_tWAvRA==",
+     "authors": "周十同;王晓丹;石玉堂",
+     "source": "北京工业大学学报(社会科学版)",
+     "date": "2026-03-26 19:13",
+     "db": "1",
+     "cited": "3835",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "人工智能政策与企业数字技术创新质量——基于国家人工智能创新应用先导区的准自然实验",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPpk-n_KreZdhl3r43TweRWawlQ1If78R2V0zfguS3kVbpsMVhJRcjsTrNl5x2hMNXrME6sYYMsvIFzoMYCGlbpu1hcM0AAcIHEfvezOFdoug4qblLBwHSBx-Vit0sJpexOA5yZ9XQk_OqBvzzsP5ZNnqB7KexnnpsSAp-9qz6q8BQ==",
+     "authors": "余思明;王晓宇;何宇",
+     "source": "宏观质量研究",
+     "date": "2026-03-13 16:35",
+     "db": "9",
+     "cited": "3091",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "算力底座：驱动新基建高质量发展的核心逻辑、作用机制与路径创新",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrGPBAPYtBOhkrvbhMX-eSTUBZLy_tLSzswcqD4zl2B5KPFXKNDjfXWbV1uw9mlONUCrAL-UEZ1YSYDXtehdedAdLrMck-wpcNJl2XwX9U8aREQG6R5Cdv4Dc6PWyLoLamCcZ-co-Xeax8ayzNzNguaiDQplAGvOdB3Jra2zZ-EGg==",
+     "authors": "蔡旺",
+     "source": "社会科学家",
+     "date": "2026-02-05 13:32",
+     "db": "9",
+     "cited": "1104",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "国家级超算布局、数智创新生态系统韧性和低空经济领域技术创新——基于BERTopic模型和双重机器学习的实证研究",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPouZa2rn2LFhQ4DNp0KsFywUyRlTwM2w2yueJvKBnxcbg1DajmdaD6LsfN9X7-WhXPyHRUOCb1rS0k114z_dc1GTxFS813Hh_OnvZ55xXcaqSQN74aSGFKeT7qbjbps62CKf0tFA-3VXWqpCUhbcr6MPg5FihYT_cKe1wqynG650g==",
+     "authors": "吕鲲;潘均柏;谢珠约",
+     "source": "工业技术经济",
+     "date": "2025-06-01",
+     "db": "6",
+     "cited": "2808",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    }
+   ]
+  },
+  {
+   "id": "T3",
+   "purpose": "推翻条件 2：其他数字基础设施是否已做质量分布",
+   "expr": "('数字基础设施'+'宽带'+'大数据'+'信息化')*('创新质量')*('差距'+'鸿沟'+'分布'+'极化')",
+   "hits_total": 2,
+   "records": [
+    {
+     "title": "弥合数字鸿沟激励后发城市绿色追赶：结构性特征与传导路径",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPr3I9bqIezAgIVJvFp9NQ_-5uyH8umRYFhHNDbtuoIbx1sFgLTwK03kxrTk8cyjN0UQWsx6clt4d6xi7VSUPXgl0TW6aq-oeog83wJfG8HdgyMCjDaBLb-JVzkXEMWtx9xkusJoup6fMGu-riE3W528TnRQ24I5VFYdbAPEmad9VQ==",
+     "authors": "李治国;李兆哲;王丽君",
+     "source": "西安交通大学学报(社会科学版)",
+     "date": "2025-05-07 16:54",
+     "db": "3",
+     "cited": "1435",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "数字技术合作与城市经济韧性——基于专利文本分析的证据",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrZGOUP5y1ShYXvtauor-qmV9PCgr3SNItHQEL5_2ABNkd4CB1UT-jUVvZnYQdv624TPs6cXsKamEFfK3FTjb-UufkKqOqPJn6zNuEwloe_YpN51m-N1nPVI8LJH1VlgXO79FXadyFoVWdOWaMQIZsCtDX9S3zrcJTpVRJbV-bdow==",
+     "authors": "韩沅刚;李振涛;谷雨;董会忠",
+     "source": "城市问题",
+     "date": "2025-02-27",
+     "db": "8",
+     "cited": "1622",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    }
+   ]
+  },
+  {
+   "id": "T2",
+   "purpose": "推翻条件 3：是否存在负向/非线性结论",
+   "expr": "('算力'+'超算'+'数据中心')*('创新')*('挤出'+'负向'+'不显著'+'门槛'+'非线性')",
+   "hits_total": 18,
+   "records": [
+    {
+     "title": "国家绿色数据中心建设能否促进企业绿色创新的“量质齐升”？",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPpgbWjwOSTx5K6AfcPx77Ci7RpMHFeBuswTlHFeU-t0jdD1MEwRuxB-V5fFMmVbRabwEwX2E-StF7VSBumjQ9qAuSKwTpFoL2VnsQJbGZhE08WdQI8GO89RPSpPs7f6pbvQ0ZXPAunvqpap0NMWtm5SBnswUvjz3hh86PKRwDUueg==",
+     "authors": "张纪录;蒋晓敏",
+     "source": "贵州财经大学学报",
+     "date": "2026-11-20 16:34",
+     "db": "",
+     "cited": "302",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "能源供给保障赋能专用人工智能发展——兼论算电协同布局的驱动效应",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPomJVjYS4jdK4ET8J0XQcTm2A-JU14YknPC-L1JRw1xxXpFr2y9ertY83WpG7XbOOnmUlPFZpr4U1uF2zodGs6-CIEK3XVaULTiQ9gH5K-gYUvlc0F3Igee1fy39jHCcaUpZH0A5V7Qy8wiBACR7sFmH1jbCa-rlFImfwdyiAdn_w==",
+     "authors": "万相昱;王亚欣;张晨",
+     "source": "经济与管理",
+     "date": "2026-10-19 13:19",
+     "db": "",
+     "cited": "1006",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "算力协同对城市创新结构的影响效应检验——基于“东数西算”工程的政策评估",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPptx15kytrD9wkq9DdtUEri-82971OgbDfNbHTH-SkhDao9iD2vItC03vPzGisx5VPLSxyd_rlDFbPTDC5HkGMVIWpc53siCHA-B9FiF_exWknS-uOGSUX_ji0e-eqSseEWXg1td9ue5MWTHGw9hrXbaqjs7u4nK3U0bHh_o6eWrg==",
+     "authors": "杜青松;代嘉璇",
+     "source": "统计与决策",
+     "date": "2026-09-08 08:46",
+     "db": "1",
+     "cited": "1764",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "基于大模型API的一站式AIGC实验教学平台设计与实践",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPptx15kytrD9wkq9DdtUEri-82971OgbDezj6j6MESy7D1QVbwqlNhePUX5QFci5WG9AAAb59XJ3T1knNV_NDEEfwO5gI3xNP4wBAtTVxR3OwyuRI__kA5TfPZ_gz1gmmovWJtwhqToMEmVWX_8WAipM1TRGnSNwi_mQv-6CU6OMg==",
+     "authors": "夏志强;刘海通;娄艳雪",
+     "source": "实验室研究与探索",
+     "date": "2026-08-26 13:23",
+     "db": "1",
+     "cited": "342",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "绿色算力基础设施建设对制造业企业数字化转型的影响及机制研究",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPqnVsyXHGTrBawUI2k1zBJoJUSEDGj5BqgmNnb0dE_xc2tsqRJ1n2MaDyw_2RlVVaBoDS9o2mPRH6qLhsVkrwUynD9rCKPub5YPA0WJLGMPdmkW0LwGnZ3TwXMvFWiUVlyAK0IlP0pBoVab1ZnK8bzCP2yUTawLkI43GRXX481Y4A==",
+     "authors": "张晓娜;陈捷",
+     "source": "统计与决策",
+     "date": "2026-07-28 12:57",
+     "db": "",
+     "cited": "1899",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "算力部署与未来产业关键核心技术突破：基于上市公司专利授权数据的实证研究",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrkCzZ-xemK854T5auggunv7VTNUTDzJu_1AUxTPaBLQ_7JDSjrOh8Ve4lSq3EDVoACObc7pqu7SZnQEr0cJTy4YSAxIIY_lmXOHp7TKvoO5zpMmAyUpjLXXC8zOXepB4p8FvkA4SQ9mfofS6qqzXoFfRiIx4aoRBFrzJQI9Xp3iQ==",
+     "authors": "郭子宇;王小林",
+     "source": "中国软科学",
+     "date": "2026-07-28",
+     "db": "2",
+     "cited": "2784",
+     "downloads": "原版阅读                                                                                    CNKI AI阅读"
+    },
+    {
+     "title": "算力作为可配置生产要素：创新网络嵌入对企业数智化创新绩效的影响及其机制检验",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPoWWOiksxLUF8d9d0oTXCMAyF2gbeqHX9bp1P8mZrbr-h5ZftO9PnaTUANqfq3ESKox4lV476zUEc6zPUxTt8FOY0wnueLBg74iGn9hjaSs2gLtKVMz5PhVZaAHbwwnvnzCHEE1zfl_JtxhtoytsiQth1BYzC8OP6Oo5aeh1eEmig==",
+     "authors": "李守伟;周艺;罗安予",
+     "source": "产业经济研究",
+     "date": "2026-07-20",
+     "db": "",
+     "cited": "675",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "算力基础设施能否驱动减污降碳协同治理？——基于中国城市样本的经验证据",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPqLXejsXxcMFYnNQhCFSqS9QUFHzhIGpcP34mJJhoPce9Ymr_XyzNehUaIsHDgBuUDYCmT7Sm7RIvaUEYwmx3MOxhMd0bnsYVWfAu2pOHYH0T0gr_jzTr-PMf5eS5OQz_LYG8JTm49SQ6JLJHoC7lzU7W3j1hmaAZwmI1mXgpNI1g==",
+     "authors": "杨伟明;粟麟;付波航",
+     "source": "科学决策",
+     "date": "2026-06-30",
+     "db": "",
+     "cited": "747",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "人工智能如何提升企业新质生产力?——基于突破性创新和供应链稳定性的视角",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrkVjk30Vannvt_GT4XAIfUw4yH529efEJXUY87mPYzd9nsA_ll-hXvH8pAa8IbMj9w4gUGQip6qhma_Cl05t6ennooe38E6t7VJy2m2GA8Qlb5Z6LD4ePj_dTGNf0OmjcqlgvK2xwH34hAh_EggVdgEcc3MXdjn9dyx4OCdBb3uw==",
+     "authors": "刘敏;李文锋;廖仲贤",
+     "source": "贵州大学学报(社会科学版)",
+     "date": "2026-01-15",
+     "db": "9",
+     "cited": "1338",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "数字化与绿色化协同推进企业绿色创新——来自绿色数据中心建设的准自然实验",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrkVjk30Vannvt_GT4XAIfUw4yH529efELOyf4cF7uo9Llv8yVPkaAkJDD0PTCM_XhTQ9CEWUqgGQdRXMUE2wbuovCAhXfiWG2MT1740RFWZI9VkLOhczYJSLPWqRS_iUuSCFE9zjdxjm37QFPMwJ1VezerKjcPG0QXWeFaJDcZ4g==",
+     "authors": "李征召;韩宁;赵德昭;周慧洋",
+     "source": "经济问题探索",
+     "date": "2025-12-01",
+     "db": "12",
+     "cited": "3423",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "国家绿色数据中心对企业新质生产力的影响——基于技术势能传递的视角",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPoTKK1WKrCDBEfQunuvv2q3yZfEUS9B0TI0siucxAUazBDBcU-B17d2-BLyx7aIc-8qdUltljPupJm4V6veFx9jenckcWJnL21cd3X__h1X50WLH2-QWKA4FU6NQoCOPOL73PP-m_m6nchsyFxwIIUwld6BvtnTIzqvZv_tzsxVMg==",
+     "authors": "熊凌云;黄林菲;杨李娟",
+     "source": "财经论丛",
+     "date": "2025-10-23 13:18",
+     "db": "7",
+     "cited": "3435",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "智能光子技术的研究进展（特邀）",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPo3kgqhbD1EbEw1IOV5a_r5LfmKL9wv9y-hGJTcMPDbxdSVR2notwFC2XejUYMC1OUcNxcp5BQKOtqwck9HtZMfxYpqhPvHw_sUglVal_enqixXC0FOuNldH-5NLAdWtyXBFeOULaZZ65O01PVTRFqwWecbGnV8sY2EUJguelzfRA==",
+     "authors": "白博文;曹良才;陈宏伟;董建绩;杜世银;方璐;冯甫;符庭钊;高云晖;郭星星;胡明列;胡跃强;黄正齐;韩亚楠;霍德旺;郝昊;江天;李明;林杰;黎思腾;李良晔;刘润民;孟祥彦;彭韬;司徒国海;石暖暖;孙琪真;苏锦越;王兴军;项水英;许丹琳;徐智昊;徐世博;袁小聪;杨其鹏;姚云华;张诗按;周天贶;张世雄;张子扬",
+     "source": "激光与光电子学进展",
+     "date": "2025-09-10",
+     "db": "11",
+     "cited": "1237",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "DeepSeek突破效应下的人工智能创新发展与治理变革",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPqTEfOrirE1ACY5lJ2SXZ06FR8cYl6lo251vqMHIy-bBDjt_ui1zFthWC_jNR-DZ43A13kWERsgplLsiZGk7Mk7VRsywH2MEhyDZarEVs-AXWtoI2JzQF2LQLv7HPVrqXmb2Z4_So5pPRrQn5QAw4iis63hpKcX8vavYct6lMmPiQ==",
+     "authors": "魏钰明;贾开;曾润喜;何哲;邱林;于文轩;唐曼;黄璜;曾雄;张宏;郑磊;张会平;张效羽;赵静;傅宏宇;蒋余浩",
+     "source": "电子政务",
+     "date": "2025-02-26 13:31",
+     "db": "324",
+     "cited": "39080",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "从传统生产力到新质生产力:替代还是迭代?",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPr_PXpYXeO3zwVzqhM0-D2RJpnC9s3OiySP_hL4I4z8yYXESC1avJKiPDw0VxOHFwYqO22T0gNrXai7qlsEu8NXXB-WHe1F6SQ6T2-BMheHDCXBISqyhyA-DireOjacRpYkaK7lJlID9AhbYHX6O4pXGgSj4e_N2h6XDiaj9WdB4w==",
+     "authors": "米加宁;李大宇;董昌其",
+     "source": "学海",
+     "date": "2025-01-20",
+     "db": "30",
+     "cited": "1377",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "新型工业化的典型特征及其对能源消费的影响",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPoGyY7dsi396tY0Wt6AemoYJso5Ml9v5K4_cBGuA2RWbJ8hARtKl-efATtDxCsmmRMb935MFX4D8vx8nPVxlQWVb9qQJfZO81FQhEpr1OTmcvTMi_ZL9p58QX3sFtnmZcm35sH8wFKy4BERk4Xat-WitGRx7RgSa4q5utDgYXguWw==",
+     "authors": "史丹;张瑾;史可寒;刘思良",
+     "source": "中国人口·资源与环境",
+     "date": "2025-01-15",
+     "db": "25",
+     "cited": "2410",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "数字经济发展减少了环境污染吗?——兼议环境规制的调节效应与门槛效应",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrObW097gvVwLH3vd-kaUc7t_osEJE3MJ70rvMC_-Lgs18rbVCLJ5TUTLMDjBUDbh9RYu5LS0S7g1K1NEuh2yWcUM0dV_3HoPoUSgaNXqOD-hakGm9mK1MQecHZyix7R3x9BvNYeI5EU938r7FW5zkMtcKwKJtsD3889KkFRSi79A==",
+     "authors": "汪芳;汪梓瑜;赵玉林;刘春晖",
+     "source": "生态经济",
+     "date": "2024-07-03",
+     "db": "23",
+     "cited": "2238",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "大数据试验区建设对城市创新效率的影响——基于国家大数据综合试验区试点的准自然试验",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPpWzNivO8LzQ7Od5UddNn5am0xi8D8sauNcjaG_wkSawy0TOkA6UYtRQDHwJAbDMBMuhsFfXvb1pr7s_KI88z2vsz-QJI5qvxaDl3waUz0eKfchLUS3hyjIJvp_Bk2XwMPQi_Szu5e3wYMKurdW88xpI-BmXtqqoxw4UBwjFjMEYg==",
+     "authors": "胡婧玮;郭金花;陈鑫",
+     "source": "商业研究",
+     "date": "2024-03-20",
+     "db": "40",
+     "cited": "2244",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    },
+    {
+     "title": "数字基础设施建设对绿色技术创新扩散的影响研究",
+     "link": "https://kns.cnki.net/kcms2/article/abstract?v=HN3WE68mkPrxYFY_3E3m6bifIcBpzCGrtKqJOLc6FT_wLVZnmD0LLPT0hRwAADNJWK-sj7d7pVBXiAK45V85q-AbzoCjrwI5v8Mq-ezC0v9ib0fmnJqBfC9O6lznk4znudz2J_9IVngk4hwaKoDNKhTAlrFeb-LYbvN95Ko8qp46X5cVZIRpPw==",
+     "authors": "盛巧燕;李玮玮",
+     "source": "经济问题探索",
+     "date": "2024-01-01",
+     "db": "69",
+     "cited": "4069",
+     "downloads": "HTML阅读                                                                                                            CNKI AI阅读"
+    }
+   ]
+  }
+ ]
+}
