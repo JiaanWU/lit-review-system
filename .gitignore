@@ -7,10 +7,10 @@ sources/
 # 浏览器会话、Edge profile 与抓取中间件（含登录态，绝不入库）
 sessions/
 
-# Obsidian 本地工作区状态
-.obsidian/workspace*.json
-.obsidian/cache
-.trash/
+# Obsidian 本地工作区状态（vault 在子目录，需用 ** 前缀才匹配）
+**/.obsidian/workspace*.json
+**/.obsidian/cache
+**/.trash/
 
 # 系统文件
 .DS_Store
