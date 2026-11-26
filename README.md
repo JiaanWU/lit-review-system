@@ -85,6 +85,6 @@ README.md §研究问题
 |---|---|
 | 仓库 | https://github.com/JiaanWU/lit-review-system |
 | 首轮结果 commit | https://github.com/JiaanWU/lit-review-system/commit/feebde1 |
-| 最终 commit | https://github.com/JiaanWU/lit-review-system/commit/caa32e7 |
+| 最终 commit | https://github.com/JiaanWU/lit-review-system/commit/ceb2147 |
 
-首轮 commit `feebde1` 对应「第一轮备忘录完成、第二轮尚未开始」的状态，便于教师对照第二轮及后续修改。`caa32e7` 为全部交付物齐备（含本人回查记录）时的提交；其后若仅有 README 的链接补充，以提交历史为准：https://github.com/JiaanWU/lit-review-system/commits/main
+首轮 commit `feebde1` 对应「第一轮备忘录完成、第二轮尚未开始」的状态，便于教师对照第二轮及后续修改。`ceb2147` 为全部内容交付物齐备（两轮产物、本人回查、引文追溯）的提交；其后提交仅为 Obsidian 配置与忽略规则修补，不改变任何结论。完整历史：https://github.com/JiaanWU/lit-review-system/commits/main
