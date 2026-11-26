@@ -127,6 +127,6 @@ README.md §研究问题
 |---|---|
 | 仓库 | https://github.com/JiaanWU/lit-review-system |
 | 首轮结果 commit | https://github.com/JiaanWU/lit-review-system/commit/feebde1 |
-| 最终 commit | https://github.com/JiaanWU/lit-review-system/commit/15e23bc |
+| 最终 commit | https://github.com/JiaanWU/lit-review-system/commit/0132e3b |
 
-首轮 commit `feebde1` 对应「第一轮备忘录完成、第二轮尚未开始」的状态，便于教师对照第二轮及后续修改。`15e23bc` 为全部内容交付物齐备（两轮产物、本人回查、引文追溯、两次漏检补录、两次边界更正、召回补正核查、第 3 篇全文精读）的提交；其后提交仅为本表链接的维护。完整历史：https://github.com/JiaanWU/lit-review-system/commits/main
+首轮 commit `feebde1` 对应「第一轮备忘录完成、第二轮尚未开始」的状态，便于教师对照第二轮及后续修改。`0132e3b` 为全部内容交付物齐备（两轮产物、本人回查、引文追溯、三次漏检补录、三次边界更正、召回补正核查、Q2 全量复核、4 篇全文精读）的提交；其后提交仅为本表链接的维护。完整历史：https://github.com/JiaanWU/lit-review-system/commits/main
